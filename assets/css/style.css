@@ -6,8 +6,8 @@ body {
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
 }
 
 #wrapper {
@@ -34,7 +34,8 @@ header {
   color:#000000;
   line-height: 50px;
   padding: 0 20px 0 20px;
-  margin-right: 282px;
+  margin-right: 222px;
+  font-weight: 400px;
 }
 
 #logo a {
@@ -59,6 +60,11 @@ header {
   line-height: 50px;
   color: #ffffff;
   text-decoration: none;
+}
+
+.navdivider {
+  color: #ffffff;
+  opacity: 0.3;
 }
 
 #navigation ul  > li {
@@ -95,15 +101,19 @@ left {
   float: right;
   background-color: #ffffff;
 }
+
+#aboutme {
+  padding: 15px;
+  border-radius: 50%;
+  float: left;
+}
+
 article img {
   padding: 20px;
   float: left;
 }
 
-article img .aboutme {
-  padding: 15px;
-  float: left;
-}
+
 
 article h2 {
   color: #232B33;
