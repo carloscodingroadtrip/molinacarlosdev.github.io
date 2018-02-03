@@ -13,13 +13,13 @@
         <header>
             <div class="container">
                 <div id="logo">
-                    <h1><a href="#">Carlos Molina</a></h1>
+                    <h1><a href="index.html">Carlos Molina</a></h1>
                 </div>
                 <nav>
                     <div id="navigation">
                         <ul>
                             <li>
-                                <a href="#">About me</a>
+                                <a href="index.html">About me</a>
                             </li>
                             <li>
                                 <a href="#">|</a>
@@ -31,7 +31,7 @@
                                 <a href="#">|</a>
                             </li>
                             <li>
-                                <a href="contact.html">Connect</a>
+                                <a href="#">Connect</a>
                             </li>
                         </ul>
                     </div>
@@ -41,11 +41,29 @@
         <!-- end of header -->
         <div id="containarticle">
             <article id="left-column">
-                    <h2>About me</h2>
-                    <hr>
-                    <img src="http://via.placeholder.com/200x200" alt="Carlos Molina">
-                    <p>I am a Full Stack Web Developer, graduated from University of Texas</p>
-                    <p>My skills are HTML, CSS, PHP, etc.</p>
+                <h2>Send me an email</h2>
+                <hr>
+                <form class="form-style">
+                        <ul>
+                            <li>
+                                <input type="text" name="text" class="field field-full align-left" placeholder="Name" />
+                            </li>
+                            <li>
+                                <input type="email" name="email" class="field field-full align-left" placeholder="Email" />
+                            </li>
+
+                            <li>
+                                <input type="subject" name="subject" class="field field-full align-none" placeholder="Subject" />
+                            </li>
+                            <li>
+                                <textarea name="message" class="field" placeholder="Message"></textarea>
+                            </li>
+                            <li>
+                                <input type="submit" value="Send Message" />
+                            </li>
+                        </ul>
+                    </form>
+
             </article>
             <aside id="right-column">
                 <h3>Connect with me</h3>
